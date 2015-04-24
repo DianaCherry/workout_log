@@ -18,8 +18,8 @@ ActiveRecord::Schema.define(version: 20150423103925) do
     t.string   "workout"
     t.string   "mood"
     t.string   "length"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
+    t.datetime "created_at"
+    t.datetime "updated_at"
   end
 
 end
