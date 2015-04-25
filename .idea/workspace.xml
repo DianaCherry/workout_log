@@ -1,21 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3fc02f8c-b291-47dd-ad25-2715cdee8ed1" name="Default" comment="Basic structure">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20150425180407_create_exercises.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/exercises/_exercise.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/exercises/_form.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/models/exercise.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/models/exercise_test.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/exercises.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/exercises.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/fixtures/exercises.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controllers/exercises_controller.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/controllers/exercises_controller_test.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/helpers/exercises_helper.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/workouts/show.html.haml" afterPath="$PROJECT_DIR$/app/views/workouts/show.html.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/workout.rb" afterPath="$PROJECT_DIR$/app/models/workout.rb" />
+    <list default="true" id="3fc02f8c-b291-47dd-ad25-2715cdee8ed1" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/workouts/index.html.haml" afterPath="$PROJECT_DIR$/app/views/workouts/index.html.haml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="workout_log.iws" />
@@ -45,11 +32,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html.haml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html.haml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/workouts/index.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="135">
-              <caret line="0" column="2" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
+            <state vertical-scroll-proportion="0.15679443" vertical-offset="0" max-vertical-offset="287">
+              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -125,10 +112,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="workout.rb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="workout.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/workout.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.048231512" vertical-offset="0" max-vertical-offset="311">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="135">
               <caret line="1" column="35" selection-start-line="1" selection-start-column="35" selection-end-line="1" selection-end-column="35" />
               <folding />
             </state>
@@ -147,7 +134,6 @@
         <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
         <option value="$PROJECT_DIR$/db/migrate/20150423103925_create_workouts.rb" />
         <option value="$PROJECT_DIR$/db/schema.rb" />
-        <option value="$PROJECT_DIR$/app/views/workouts/index.html.haml" />
         <option value="$PROJECT_DIR$/app/views/workouts/edit.html.haml" />
         <option value="$PROJECT_DIR$/app/views/workouts/new.html.haml" />
         <option value="$PROJECT_DIR$/app/controllers/workouts_controller.rb" />
@@ -161,6 +147,7 @@
         <option value="$PROJECT_DIR$/app/controllers/exercises_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/exercises/_exercise.html.haml" />
         <option value="$PROJECT_DIR$/app/models/workout.rb" />
+        <option value="$PROJECT_DIR$/app/views/workouts/index.html.haml" />
       </list>
     </option>
   </component>
@@ -508,7 +495,13 @@
       <option name="project" value="LOCAL" />
       <updated>1429984931282</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Add exercises to workouts">
+      <created>1429990913473</created>
+      <option name="number" value="00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1429990913473</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -556,7 +549,8 @@
     <MESSAGE value="Add App Gems &amp; Workout Forms / Views" />
     <MESSAGE value="Add edit&amp;destroy ability" />
     <MESSAGE value="Basic structure" />
-    <option name="LAST_COMMIT_MESSAGE" value="Basic structure" />
+    <MESSAGE value="Add exercises to workouts" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add exercises to workouts" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -872,14 +866,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/workouts/index.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="590">
-          <caret line="0" column="2" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/workouts/new.html.haml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
@@ -946,8 +932,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/workout.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.048231512" vertical-offset="0" max-vertical-offset="311">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="135">
           <caret line="1" column="35" selection-start-line="1" selection-start-column="35" selection-end-line="1" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/workouts/index.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.15679443" vertical-offset="0" max-vertical-offset="287">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding />
         </state>
       </provider>
